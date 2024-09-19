@@ -56,13 +56,13 @@ nav a.active {
 
 
 
-.cad_produtos{
+.media_calc{
     display: grid;
     grid-template-columns: auto;
     place-items: center;
 }
 
-.cad_produtos h2{
+.media_calc h2{
     font-family: var(--fonte-primaria);
     text-align: center;
     margin-bottom: 30px;
@@ -86,7 +86,7 @@ nav a.active {
     padding-left: 10px;
 }
 
-.cad_produtos input[type="text"]{
+.media_calc input[type="text"]{
     margin-bottom: 30px;
     font-size: 24px;
     border-radius: 10px;
@@ -96,15 +96,15 @@ nav a.active {
     color: blue;
 }
 
-.cad_produtos input[type="text"]:hover{
+.media_calc input[type="text"]:hover{
     background-color: rgb(208, 255, 196);
 }
 
-.cad_produtos input[type="text"]:focus{
+.media_calc input[type="text"]:focus{
     background-color: rgb(208, 255, 196);
 }
 
-.cad_produtos_enviar {
+.media_enviar {
     font-size: 20px;
     background-color: #28a745;
     padding: 10px 25px;
@@ -113,7 +113,7 @@ nav a.active {
     cursor: pointer;
 }
 
-.cad_produtos_enviar:hover {
+.media_enviar:hover {
     opacity: 0.9;
     color: white;
 }

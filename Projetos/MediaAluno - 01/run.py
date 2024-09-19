@@ -25,11 +25,12 @@ def validar_produto():
         status = "Aprovado"
     elif media >= 3:
         status = "Recuperação"
-    else
+    else:
+        status 
     caminho_arquivo = 'models/notas.txt'  # Mudança para notas.txt
 
     with open(caminho_arquivo, 'a') as arquivo:
-        arquivo.write(f"{nome};{nota1};{nota2};{nota3};{media}\n")
+        arquivo.write(f"{nome};{nota1};{nota2};{nota3};{media};{status}\n")
 
     return redirect("/cadastro")
 

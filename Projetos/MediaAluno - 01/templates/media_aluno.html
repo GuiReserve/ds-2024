@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav>
-        <img src="../static/assets/colegio.png" alt="logo">
+        <img src="../static/colegio.png" alt="logo">
         <a href="/"> Voltar</a> | 
         <a href="/notas"> Ver Notas</a>
     </nav>
@@ -23,6 +23,8 @@
                     <th>Nota 2</th>
                     <th>Nota 3</th>
                     <th>Média</th>
+                    <th>Status</th>
+                    <th>Excluir</th>
                 </tr>
                 {% for pro in prod %}
                 <tr>
@@ -31,6 +33,7 @@
                     <td>{{ pro.nota2 }}</td>
                     <td>{{ pro.nota3 }}</td>
                     <td>{{ pro.media }}</td>
+                    <td>{{ pro.status }}</td>
                     <td><a href="/excluir_produto?linha={{ loop.index0 }}" class="link_produto">Deletar</a></td>
                     
                 </tr>
